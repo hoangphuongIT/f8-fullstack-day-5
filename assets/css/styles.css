@@ -1,6 +1,10 @@
 /* Common */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
     font-size: 1.5em;
+    font-weight: bold;
 }
 strong,
 b {
@@ -31,7 +35,6 @@ p {
 #cv-page h1 {
     font-style: normal;
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
 }
 #cv-page .container {
     background-color: white;
@@ -85,4 +88,73 @@ p {
 #menu .menu a:hover {
     background-color: white;
     color: #333;
+}
+
+/* =================================================== */
+/* Form */
+#form {
+    background-color: bisque;
+}
+#form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#form .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+#form .avatar {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#form .avatar-input {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px dashed #999;
+    line-height: 100px;
+    color: #666;
+    font-size: 12px;
+    overflow: hidden;
+    text-align: center;
+}
+#form #avatar {
+    display: none;
+}
+#form .form-group {
+    margin-bottom: 14px;
+}
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="tel"],
+#form input[type="password"],
+#form input[type="date"],
+#form textarea,
+#form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+#form button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
 }
