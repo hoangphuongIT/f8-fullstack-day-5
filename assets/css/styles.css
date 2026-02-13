@@ -13,6 +13,19 @@ b {
 p {
     line-height: 20px;
 }
+
+/* =============================== */
+/* Home Page */
+#home-page .menu {
+    max-width: 500px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 /* =============================== */
 /* CV */
 #cv-page {
