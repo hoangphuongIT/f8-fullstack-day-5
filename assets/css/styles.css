@@ -2,17 +2,6 @@
 h1 {
     font-size: 1.5em;
 }
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding-inline-start: 20px;
-}
-li {
-    display: list-item;
-    line-height: 1.4;
-}
 strong,
 b {
     font-weight: bold;
@@ -27,6 +16,17 @@ p {
 }
 #cv-page hr {
     border-top: 2px solid #333;
+}
+#cv-page ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 20px;
+}
+#cv-page li {
+    display: list-item;
+    line-height: 1.4;
 }
 #cv-page h1 {
     font-style: normal;
@@ -57,4 +57,32 @@ p {
 #cv-page .job-title,
 #cv-page .date {
     font-weight: 700;
+}
+
+/* =============================================== */
+/* Menu */
+#menu .nav-bar {
+    background-color: #3e5cca;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+#menu .menu {
+    display: flex;
+    padding: 0 40px;
+    justify-content: center;
+}
+#menu .menu li:first-of-type a {
+    background-color: white;
+    color: black;
+}
+#menu .menu a {
+    display: block;
+    padding: 30px 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#menu .menu a:hover {
+    background-color: white;
+    color: #333;
 }
